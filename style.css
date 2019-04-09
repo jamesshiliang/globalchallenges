@@ -40,6 +40,7 @@ h2,
 h3,
 h4,
 h5,
+
 h6 {
   color: #000000;
   font-weight: 500;
@@ -144,7 +145,7 @@ ol {
   margin: 0; }
   ul li,
   ol li {
-    list-style: none; }
+    list-style-type: number; }
 
 img {
   height: auto;
@@ -826,6 +827,15 @@ img {
     @media only screen and (max-width: 767px) {
       .breadcumb-area .breadcumb-content h2 {
         font-size: 30px; } }
+        .breadcumb-area .breadcumb-content a {
+            display: inline-block;
+            padding: 3px 10px;
+            background-color: #000000;
+            border-radius: 2px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 10px;
+            color: #ffffff; }
 
 .blog-post-author {
   position: relative;
